@@ -10,6 +10,7 @@ from pymongo import MongoClient
 import json
 import sys
 import codecs
+from googleapiclient.discovery import build
 
 
 app = Flask(__name__)
@@ -131,7 +132,7 @@ def run_other_request():
     return jsonify({'success': True}), 200
 
 
-from googleapiclient.discovery import build
+
 
 
 # Hàm để lấy video ID từ URL của YouTube
