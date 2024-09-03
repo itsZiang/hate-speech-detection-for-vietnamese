@@ -2,13 +2,13 @@ import pandas as pd
 import numpy as np
 from scipy import sparse
 import regex as re
-from emot.emo_unicode import UNICODE_EMOJI, EMOTICONS_EMO
-from pyvi import ViTokenizer, ViPosTagger, ViUtils
+from emot.emo_unicode import UNICODE_EMOJI
+from pyvi import ViTokenizer
 import joblib
 from scipy.sparse import hstack
 from sklearn.feature_extraction import DictVectorizer
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn import preprocessing
+from sklearn.feature_extraction.text import TfidfVectorizer
+# from sklearn import preprocessing
 import os
 
 
