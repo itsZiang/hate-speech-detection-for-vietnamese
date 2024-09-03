@@ -117,10 +117,10 @@ def get_id(url):
 
 device = torch.device('cpu')
 
-phoBert = torch.load("D:\\visomecens\\Models\\phobert_cnn_model_part1_task2a_2.pt",
+phoBert = torch.load("./HateSpeechDetection/Models/phobert_cnn_model_part1_task2a_2.pt",
                      map_location=device
                      )
-cnn = torch.load('D:\\visomecens\\Models\\phobert_cnn_model_part2_task2a_2.pt',
+cnn = torch.load('./HateSpeechDetection/Models/phobert_cnn_model_part2_task2a_2.pt',
                  map_location=device
                  )
 
