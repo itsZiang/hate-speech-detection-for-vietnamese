@@ -138,5 +138,5 @@ npm start
 
 
 # Model Evaluation
-![Model Evaluation](images/eval.png)
+![Model Evaluation](eval.png)
 
